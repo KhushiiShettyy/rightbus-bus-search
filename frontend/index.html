@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RightBus – Book your bus</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top land">
+    <nav class="wrap nav"><a class="logo" href="index.html">RightBus</a><span class="nav-note">Intercity bus search</span></nav>
+    <div class="wrap hero">
+      <div class="hero-text">
+        <h1>Where are you headed next?</h1>
+        <p>Search overnight buses, compare fares and timings, and see exactly where to board.</p>
+      </div>
+      <svg class="hero-art" viewBox="0 0 480 220" role="img" aria-label="Bus travelling on a highway past a city skyline">
+        <circle cx="390" cy="62" r="32" fill="#f2a900" opacity=".95"/>
+        <g fill="#24435f"><rect x="10" y="100" width="46" height="72"/><rect x="62" y="70" width="40" height="102"/><rect x="108" y="112" width="52" height="60"/><rect x="170" y="84" width="36" height="88"/><rect x="300" y="108" width="44" height="64"/><rect x="350" y="80" width="38" height="92"/><rect x="394" y="116" width="60" height="56"/></g>
+        <g fill="#35597b"><rect x="22" y="112" width="8" height="8"/><rect x="36" y="112" width="8" height="8"/><rect x="72" y="84" width="8" height="8"/><rect x="86" y="84" width="8" height="8"/><rect x="180" y="98" width="8" height="8"/><rect x="360" y="94" width="8" height="8"/></g>
+        <rect y="172" width="480" height="48" fill="#0c1b2b"/>
+        <rect x="0" y="195" width="480" height="4" fill="#f2a900" opacity=".8"/>
+        <g><rect x="120" y="116" width="230" height="64" rx="12" fill="#f2a900"/><rect x="132" y="128" width="30" height="22" rx="3" fill="#14283d"/><rect x="170" y="128" width="30" height="22" rx="3" fill="#14283d"/><rect x="208" y="128" width="30" height="22" rx="3" fill="#14283d"/><rect x="246" y="128" width="30" height="22" rx="3" fill="#14283d"/><rect x="296" y="126" width="44" height="30" rx="4" fill="#14283d"/><rect x="120" y="160" width="230" height="6" fill="#d99600"/><circle cx="170" cy="182" r="16" fill="#14202e"/><circle cx="170" cy="182" r="7" fill="#cbd5e1"/><circle cx="302" cy="182" r="16" fill="#14202e"/><circle cx="302" cy="182" r="7" fill="#cbd5e1"/></g>
+      </svg>
+    </div>
+    <div class="road" aria-hidden="true"></div>
+  </header>
+
+  <main class="wrap">
+    <form id="search-form" class="search" novalidate>
+      <label class="f-from">From
+        <input id="source" name="source" list="cities" placeholder="Bangalore" autocomplete="off">
+      </label>
+      <button type="button" id="swap" class="swap" aria-label="Swap source and destination" title="Swap">⇄</button>
+      <label class="f-to">To
+        <input id="destination" name="destination" list="cities" placeholder="Mumbai" autocomplete="off">
+      </label>
+      <label class="f-date">Journey date
+        <input id="journey_date" name="journey_date" type="date" value="2026-08-09">
+      </label>
+      <button type="submit" class="go">Search buses</button>
+      <datalist id="cities"><option value="Bangalore"></option><option value="Mumbai"></option></datalist>
+    </form>
+    <p id="form-error" class="field-error" role="alert" hidden></p>
+
+    <section id="welcome" class="welcome" hidden aria-live="polite">
+      <div class="welcome-text">
+        <h2 id="welcome-title"></h2>
+        <p id="welcome-blurb"></p>
+      </div>
+      <div class="group">
+        <span class="group-label">How would you like to travel?</span>
+        <div id="ac-chips" class="chips"></div>
+      </div>
+    </section>
+
+    <section class="block">
+      <h2>Popular destinations</h2>
+      <div class="dest-grid">
+        <button type="button" class="dest" data-city="Mumbai">
+          <img src="images/mumbai.svg" alt="Gateway of India at sunset">
+          <span class="dest-body"><strong>Mumbai</strong><span>Sea-facing sunsets, street food and the city that never sleeps.</span></span>
+        </button>
+        <button type="button" class="dest" data-city="Bangalore">
+          <img src="images/bangalore.svg" alt="Bangalore skyline with trees">
+          <span class="dest-body"><strong>Bangalore</strong><span>The Garden City: parks, cafés and India's tech capital.</span></span>
+        </button>
+      </div>
+      <div class="quick"><span>In a hurry?</span><button type="button" id="quick-route" class="chip">Bangalore → Mumbai · 09 Aug 2026</button></div>
+    </section>
+
+    <section class="block">
+      <h2>How it works</h2>
+      <ol class="steps">
+        <li><strong>Search</strong><span>Enter where you're going and when.</span></li>
+        <li><strong>Compare</strong><span>Filter by AC, seat type, price or departure time.</span></li>
+        <li><strong>Check details</strong><span>See boarding and dropping points with directions.</span></li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="foot"><div class="wrap">RightBus · Full-stack bus search demo</div></footer>
+  <script src="home.js"></script>
+</body>
+</html>

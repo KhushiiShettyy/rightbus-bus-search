@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RightBus – Bus results</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top res">
+    <nav class="wrap nav"><a class="logo" href="index.html">RightBus</a><a class="nav-link" href="index.html">← New search</a></nav>
+    <div class="wrap res-head">
+      <h1 id="route-title">Searching…</h1>
+      <p id="route-sub"></p>
+    </div>
+    <div class="road" aria-hidden="true"></div>
+  </header>
+
+  <main class="wrap">
+    <form id="search-form" class="search compact" novalidate>
+      <label class="f-from">From <input id="source" name="source" list="cities" autocomplete="off"></label>
+      <button type="button" id="swap" class="swap" aria-label="Swap source and destination" title="Swap">⇄</button>
+      <label class="f-to">To <input id="destination" name="destination" list="cities" autocomplete="off"></label>
+      <label class="f-date">Journey date <input id="journey_date" name="journey_date" type="date"></label>
+      <button type="submit" id="search-btn" class="go">Update search</button>
+      <datalist id="cities"><option value="Bangalore"></option><option value="Mumbai"></option></datalist>
+    </form>
+    <p id="form-error" class="field-error" role="alert" hidden></p>
+
+    <section id="controls" class="controls" hidden>
+      <div class="group"><span class="group-label">Bus type</span><div id="ac-chips" class="chips"></div></div>
+      <div class="group" id="seat-group"><span class="group-label">Seat type</span><div id="seat-chips" class="chips"></div></div>
+      <label class="sort">Sort by
+        <select id="f-sort">
+          <option value="">Recommended</option>
+          <option value="price">Price: low to high</option>
+          <option value="early">Earliest departure</option>
+        </select>
+      </label>
+    </section>
+
+    <p id="summary" class="summary" aria-live="polite"></p>
+    <div id="state" aria-live="polite"></div>
+    <ul id="results" class="results"></ul>
+  </main>
+
+  <footer class="foot"><div class="wrap">RightBus · Full-stack bus search demo</div></footer>
+
+  <dialog id="details">
+    <div class="dlg-head">
+      <h2 id="dlg-title"></h2>
+      <button type="button" id="dlg-close" class="btn-ghost" aria-label="Close details">Close</button>
+    </div>
+    <div id="dlg-body"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

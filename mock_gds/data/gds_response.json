@@ -1,0 +1,1033 @@
+{
+  "status": "success",
+  "trips": [
+    {
+      "trip_id": "TRP-128475",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "2+1 NON AC Seater",
+      "is_ac": true,
+      "from_city_name": "Bangalore",
+      "to_city_name": "Mumbai",
+      "route_name": "Bangalore To Mumbai",
+      "bus_type_name": "2+1 NON AC Seater",
+      "bus_seat_type": "Sleeper",
+      "amenities": [
+        "Reading Light",
+        "AC"
+      ],
+      "schedule": {
+        "departure_time": "4:00 PM",
+        "arrival_time": "11:00 AM",
+        "departure_date": "2026-08-09",
+        "estimated_arrival_date": "2026-08-10",
+        "duration_minutes": 1140,
+        "distance_km": null
+      },
+      "pricing": {
+        "base_fare": 2426,
+        "service_tax": 0,
+        "surcharges": 0,
+        "total_fare": 2426,
+        "fare_type": "sleeper",
+        "currency": "INR"
+      },
+      "availability": {
+        "seats_available": 16,
+        "is_available": true,
+        "seat_types": [
+          "sleeper"
+        ]
+      },
+      "boarding_points": [
+        {
+          "name": "Bannerghatta Road",
+          "time": "3:00 PM",
+          "contact": "08022377777",
+          "distance_km": 12.11,
+          "latitude": 12.895583,
+          "longitude": 77.602622,
+          "is_nearest": true
+        },
+        {
+          "name": "Rcr Road",
+          "time": "4:00 PM",
+          "contact": "9876543210",
+          "distance_km": 12.11,
+          "latitude": 12.895583,
+          "longitude": 77.602622,
+          "is_nearest": false
+        },
+        {
+          "name": "Hulimavu, Bangalore",
+          "time": "4:05 PM",
+          "contact": "08022377777",
+          "distance_km": 13.95,
+          "latitude": 12.877349,
+          "longitude": 77.602803,
+          "is_nearest": false
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Sion Circle - Bank Of India",
+          "time": "11:00 AM",
+          "contact": null,
+          "distance_km": 15.35,
+          "latitude": 19.04272,
+          "longitude": 72.862997,
+          "is_nearest": true
+        }
+      ],
+      "proximity_info": {
+        "nearest_boarding": {
+          "name": "Bannerghatta Road",
+          "time": "3:00 PM",
+          "distance_km": 12.11
+        },
+        "nearest_dropping": {
+          "name": "Sion Circle - Bank Of India",
+          "time": "11:00 AM",
+          "distance_km": 15.35
+        }
+      },
+      "booking_token": "eyJwcm92aWRlciI6ICJpbmZpbml0eWluZm93YXkiLCAicm91dGVfaWQiOiA2NDUzNiwgInJvdXRlX3RpbWVfaWQiOiAxMjg0NzUsICJhcnJhbmdlbWVudF9pZCI6IDE0OSwgImNvbXBhbnlfaWQiOiAxLCAicmVmZXJlbmNlX251bWJlciI6ICIxIzIzMTgjNzAzIzY0NTM2IzEyODQ3NSMxNDkjMDkwODIwMjYjNDowMCBQTSM0OjAwIFBNIzIiLCAiam91cm5leV9kYXRlIjogIjIwMjYtMDgtMDkiLCAiZGVwYXJ0dXJlX3RpbWUiOiAiNDowMCBQTSIsICJhcnJpdmFsX3RpbWUiOiAiMTE6MDAgQU0iLCAiYm9hcmRpbmdfcG9pbnRzIjogIjU0NDM1fEJhbm5lcmdoYXR0YSBSb2FkfDM6MDAgUE18MDgwMjIzNzc3NzcjNTM0OTV8UmNyIFJvYWR8NDowMCBQTXw5ODc2NTQzMjEwIzU0NDM0fEh1bGltYXZ1LCBCYW5nYWxvcmV8NDowNSBQTXwwODAyMjM3Nzc3NyIsICJkcm9wcGluZ19wb2ludHMiOiAiMjUxNTI3fFNpb24gQ2lyY2xlIC0gQmFuayBPZiBJbmRpYXwxMTowMCBBTSIsICJzb3VyY2Vfc3RvcF9uYW1lIjogIkJhbmdhbG9yZSIsICJkZXN0X3N0b3BfbmFtZSI6ICJNdW1iYWkifQ==",
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      }
+    },
+    {
+      "trip_id": "TRP-120807",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "NON A/C SLEEPER",
+      "is_ac": false,
+      "from_city_name": "Bangalore",
+      "to_city_name": "Mumbai",
+      "route_name": "Bangalore To Jaisalmer",
+      "bus_type_name": "NON A/C SLEEPER",
+      "bus_seat_type": "Sleeper",
+      "amenities": [
+        "Non-AC",
+        "Blanket",
+        "Reading Light",
+        "Pillow"
+      ],
+      "schedule": {
+        "departure_time": "4:04 PM",
+        "arrival_time": "10:54 AM",
+        "departure_date": "2026-08-09",
+        "estimated_arrival_date": "2026-08-10",
+        "duration_minutes": 1130,
+        "distance_km": null
+      },
+      "pricing": {
+        "base_fare": 589,
+        "service_tax": 0,
+        "surcharges": 0,
+        "total_fare": 589,
+        "fare_type": "sleeper",
+        "currency": "INR"
+      },
+      "availability": {
+        "seats_available": 19,
+        "is_available": true,
+        "seat_types": [
+          "sleeper"
+        ]
+      },
+      "boarding_points": [
+        {
+          "name": "Bangalore",
+          "time": "4:04 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Race Cource Road Bangolre.",
+          "time": "4:04 PM",
+          "contact": "8155824531",
+          "distance_km": 3.33,
+          "latitude": 12.982326,
+          "longitude": 77.58078,
+          "is_nearest": true
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Mumbai",
+          "time": "10:54 AM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.8692035,
+          "is_nearest": true
+        }
+      ],
+      "proximity_info": {
+        "nearest_boarding": {
+          "name": "Race Cource Road Bangolre.",
+          "time": "4:04 PM",
+          "distance_km": 3.33
+        },
+        "nearest_dropping": {
+          "name": "Mumbai",
+          "time": "10:54 AM",
+          "distance_km": 14.09
+        }
+      },
+      "booking_token": "eyJwcm92aWRlciI6ICJpbmZpbml0eWluZm93YXkiLCAicm91dGVfaWQiOiA1OTczNywgInJvdXRlX3RpbWVfaWQiOiAxMjA4MDcsICJhcnJhbmdlbWVudF9pZCI6IDE4OTg3LCAiY29tcGFueV9pZCI6IDEsICJyZWZlcmVuY2VfbnVtYmVyIjogIjEjMjMxOCM3MDMjNTk3MzcjMTIwODA3IzE4OTg3IzA5MDgyMDI2IzQ6MDQgUE0jNDowNCBQTSMyIiwgImpvdXJuZXlfZGF0ZSI6ICIyMDI2LTA4LTA5IiwgImRlcGFydHVyZV90aW1lIjogIjQ6MDQgUE0iLCAiYXJyaXZhbF90aW1lIjogIjEwOjU0IEFNIiwgImJvYXJkaW5nX3BvaW50cyI6ICI0ODA0M3xCYW5nYWxvcmV8NDowNCBQTXwjNDg1ODF8UmFjZSBDb3VyY2UgUm9hZCBCYW5nb2xyZS58NDowNCBQTXw4MTU1ODI0NTMxIiwgImRyb3BwaW5nX3BvaW50cyI6ICI0ODAzNHxNdW1iYWl8MTA6NTQgQU0iLCAic291cmNlX3N0b3BfbmFtZSI6ICJCYW5nYWxvcmUiLCAiZGVzdF9zdG9wX25hbWUiOiAiTXVtYmFpIn0=",
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      }
+    },
+    {
+      "trip_id": "TRP-110955",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "Bharat Benz A/C Sleeper",
+      "is_ac": true,
+      "from_city_name": "Bangalore",
+      "to_city_name": "Mumbai",
+      "route_name": "Bangalore To Mumbai (2+1) A/C Sleeper Luxury Bus",
+      "bus_type_name": "Bharat Benz A/C Sleeper",
+      "bus_seat_type": "Sleeper",
+      "amenities": [
+        "Blanket",
+        "Reading Light",
+        "Pillow",
+        "AC"
+      ],
+      "schedule": {
+        "departure_time": "7:30 PM",
+        "arrival_time": "01:30 PM",
+        "departure_date": "2026-08-09",
+        "estimated_arrival_date": "2026-08-10",
+        "duration_minutes": 1080,
+        "distance_km": null
+      },
+      "pricing": {
+        "base_fare": 3592,
+        "service_tax": 0,
+        "surcharges": 0,
+        "total_fare": 3592,
+        "fare_type": "sleeper",
+        "currency": "INR"
+      },
+      "availability": {
+        "seats_available": 10,
+        "is_available": true,
+        "seat_types": [
+          "sleeper"
+        ]
+      },
+      "boarding_points": [
+        {
+          "name": "Kalasipalyam Office- Opp. Maharaja Stachu",
+          "time": "7:15 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Kalasipalyam - Near Tipu Palace Opp.-Bangalore Medical Collage",
+          "time": "7:30 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "City Railway Station - Near shantala Silks towards Upperpete Police Station",
+          "time": "7:45 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Majestic - Tank Bund Road, Near Hotel Amar",
+          "time": "7:50 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Anand Rao Circle Near Tourist Hotel",
+          "time": "8:00 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Yashwanthpur",
+          "time": "8:30 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Goraguntepalya Near K L E Dental Hospital Gate.",
+          "time": "8:35 PM",
+          "contact": "0",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Jalahalli Cross",
+          "time": "8:40 PM",
+          "contact": "0",
+          "distance_km": 6.4,
+          "latitude": 13.040043,
+          "longitude": 77.518459,
+          "is_nearest": false
+        },
+        {
+          "name": "8th Mile - Dasarahalli",
+          "time": "8:45 PM",
+          "contact": "0",
+          "distance_km": 7.74,
+          "latitude": 13.045564,
+          "longitude": 77.50551,
+          "is_nearest": false
+        },
+        {
+          "name": "Parle Toll - Near Parle Toll",
+          "time": "8:50 PM",
+          "contact": "0",
+          "distance_km": 2.14,
+          "latitude": 12.973835,
+          "longitude": 77.547621,
+          "is_nearest": true
+        },
+        {
+          "name": "Madanayakanahalli",
+          "time": "8:55 PM",
+          "contact": "0",
+          "distance_km": 12.28,
+          "latitude": 13.059247,
+          "longitude": 77.461511,
+          "is_nearest": false
+        },
+        {
+          "name": "Nelmangala Toll - D Mart",
+          "time": "9:00 PM",
+          "contact": "0",
+          "distance_km": 5.93,
+          "latitude": 12.968339,
+          "longitude": 77.6006,
+          "is_nearest": false
+        },
+        {
+          "name": "Dabaspet",
+          "time": "9:10 PM",
+          "contact": "0",
+          "distance_km": 42.02,
+          "latitude": 13.223769,
+          "longitude": 77.244987,
+          "is_nearest": false
+        },
+        {
+          "name": "Tumkur Batwadi Bye_Pass.",
+          "time": "9:20 PM",
+          "contact": "0",
+          "distance_km": 2.86,
+          "latitude": 13.018028,
+          "longitude": 77.556119,
+          "is_nearest": false
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Kamote - Below Flyover Near K.L.E Collage Bus Stop (Kalamboli)",
+          "time": "1:30 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Kharghar - Three Star Hotel Near Below Kharghar Bridge",
+          "time": "1:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Nerul Lp Near LP Bus Stop",
+          "time": "1:45 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Sanpada - Bridge Ending Near Bridge Ending Bus Stop",
+          "time": "1:48 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Vashi- Vashi Plaza, Sector No-17 Below Bridge After Signal",
+          "time": "1:50 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Chembur - Dimand Gardan, Near Yogi Restaurant",
+          "time": "2:00 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Sion Circle - Bank Of India",
+          "time": "2:20 PM",
+          "contact": null,
+          "distance_km": 15.35,
+          "latitude": 19.04272,
+          "longitude": 72.862997,
+          "is_nearest": false
+        },
+        {
+          "name": "Bandra (East) - Kala Nagar ,Near Kala Nagar Bus Stop",
+          "time": "2:25 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Santracruz (E)- Near Relieance Eneargy",
+          "time": "2:30 PM",
+          "contact": null,
+          "distance_km": 13.83,
+          "latitude": 19.068631,
+          "longitude": 72.906116,
+          "is_nearest": false
+        },
+        {
+          "name": "Andheri (East) - Bridge END Shivaji Statue Towards Vileparle",
+          "time": "2:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Goregoan (East) - Near Western Express Highway",
+          "time": "2:45 PM",
+          "contact": null,
+          "distance_km": 1.56,
+          "latitude": 19.171044,
+          "longitude": 72.859023,
+          "is_nearest": false
+        },
+        {
+          "name": "Malad (East) - Pathan Wadi",
+          "time": "2:50 PM",
+          "contact": null,
+          "distance_km": 1.31,
+          "latitude": 19.179822,
+          "longitude": 72.860054,
+          "is_nearest": true
+        },
+        {
+          "name": "Borivali (East) - National Park Bridge End Axis Bank",
+          "time": "2:55 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Mira Road East- Sheetal Nagar",
+          "time": "3:00 PM",
+          "contact": null,
+          "distance_km": 13.33,
+          "latitude": 19.064732,
+          "longitude": 72.882385,
+          "is_nearest": false
+        }
+      ],
+      "proximity_info": {
+        "nearest_boarding": {
+          "name": "Parle Toll - Near Parle Toll",
+          "time": "8:50 PM",
+          "distance_km": 2.14
+        },
+        "nearest_dropping": {
+          "name": "Malad (East) - Pathan Wadi",
+          "time": "2:50 PM",
+          "distance_km": 1.31
+        }
+      },
+      "booking_token": "eyJwcm92aWRlciI6ICJpbmZpbml0eWluZm93YXkiLCAicm91dGVfaWQiOiA1MzA5OSwgInJvdXRlX3RpbWVfaWQiOiAxMTA5NTUsICJhcnJhbmdlbWVudF9pZCI6IDI3NDUsICJjb21wYW55X2lkIjogMSwgInJlZmVyZW5jZV9udW1iZXIiOiAiMSMyMzE4IzcwMyM1MzA5OSMxMTA5NTUjMjc0NSMwOTA4MjAyNiM3OjMwIFBNIzc6MzAgUE0jMiIsICJqb3VybmV5X2RhdGUiOiAiMjAyNi0wOC0wOSIsICJkZXBhcnR1cmVfdGltZSI6ICI3OjMwIFBNIiwgImFycml2YWxfdGltZSI6ICIwMTozMCBQTSIsICJib2FyZGluZ19wb2ludHMiOiAiMjUxNTAxfEthbGFzaXBhbHlhbSBPZmZpY2UtIE9wcC4gTWFoYXJhamEgU3RhY2h1fDc6MTUgUE18MCMyNTE0OTJ8S2FsYXNpcGFseWFtIC0gTmVhciBUaXB1IFBhbGFjZSBPcHAuLUJhbmdhbG9yZSBNZWRpY2FsIENvbGxhZ2V8NzozMCBQTXwwIzI1MTUwMnxDaXR5IFJhaWx3YXkgU3RhdGlvbiAtIE5lYXIgc2hhbnRhbGEgU2lsa3MgdG93YXJkcyBVcHBlcnBldGUgUG9saWNlIFN0YXRpb258Nzo0NSBQTXwwIzI1MTUwM3xNYWplc3RpYyAtIFRhbmsgIEJ1bmQgUm9hZCwgTmVhciBIb3RlbCBBbWFyfDc6NTAgUE18MCMyNTE1MTJ8QW5hbmQgUmFvIENpcmNsZSBOZWFyIFRvdXJpc3QgSG90ZWx8ODowMCBQTXwwIzIzMjkxNnxZYXNod2FudGhwdXJ8ODozMCBQTXwwIzI1MTUwOXxHb3JhZ3VudGVwYWx5YSBOZWFyIEsgTCBFIERlbnRhbCBIb3NwaXRhbCBHYXRlLnw4OjM1IFBNfDAjMjUxNTExfEphbGFoYWxsaSBDcm9zcyB8ODo0MCBQTXwwIzIzNjcwOHw4dGggTWlsZSAtIERhc2FyYWhhbGxpfDg6NDUgUE18MCMyNTE1MDB8UGFybGUgVG9sbCAtIE5lYXIgUGFybGUgVG9sbHw4OjUwIFBNfDAjMTkwNjUxfE1hZGFuYXlha2FuYWhhbGxpfDg6NTUgUE18MCMyNTE1MDV8TmVsbWFuZ2FsYSBUb2xsIC0gRCBNYXJ0fDk6MDAgUE18MCMxOTA2MjB8RGFiYXNwZXR8OToxMCBQTXwwIzI1MTQ5MXxUdW1rdXIgQmF0d2FkaSBCeWVfUGFzcy58OToyMCBQTXwwIiwgImRyb3BwaW5nX3BvaW50cyI6ICIyNTE1MjN8S2Ftb3RlIC0gQmVsb3cgRmx5b3ZlciBOZWFyIEsuTC5FIENvbGxhZ2UgQnVzIFN0b3AgKEthbGFtYm9saSl8MTozMCBQTSMyNTE1MjJ8S2hhcmdoYXIgLSBUaHJlZSBTdGFyIEhvdGVsIE5lYXIgQmVsb3cgS2hhcmdoYXIgQnJpZGdlfDE6MzUgUE0jMjUxNTIxfE5lcnVsIExwIE5lYXIgTFAgQnVzIFN0b3B8MTo0NSBQTSMyNTE1Mjh8U2FucGFkYSAtIEJyaWRnZSBFbmRpbmcgTmVhciBCcmlkZ2UgRW5kaW5nIEJ1cyBTdG9wfDE6NDggUE0jMjUxNTIwfFZhc2hpLSBWYXNoaSBQbGF6YSwgU2VjdG9yIE5vLTE3IEJlbG93IEJyaWRnZSBBZnRlciBTaWduYWx8MTo1MCBQTSMyNTE1MTl8Q2hlbWJ1ciAtIERpbWFuZCBHYXJkYW4sIE5lYXIgWW9naSBSZXN0YXVyYW50fDI6MDAgUE0jMjUxNTI3fFNpb24gQ2lyY2xlIC0gQmFuayBPZiBJbmRpYXwyOjIwIFBNIzI1MTUxOHxCYW5kcmEgKEVhc3QpIC0gS2FsYSBOYWdhciAsTmVhciBLYWxhIE5hZ2FyIEJ1cyBTdG9wfDI6MjUgUE0jMjUxNTM1fFNhbnRyYWNydXogKEUpLSBOZWFyIFJlbGllYW5jZSBFbmVhcmd5fDI6MzAgUE0jMjUxNTE3fEFuZGhlcmkgKEVhc3QpIC0gQnJpZGdlIEVORCBTaGl2YWppIFN0YXR1ZSBUb3dhcmRzIFZpbGVwYXJsZXwyOjM1IFBNIzI1MTUyNXxHb3JlZ29hbiAoRWFzdCkgLSAgTmVhciBXZXN0ZXJuIEV4cHJlc3MgSGlnaHdheXwyOjQ1IFBNIzI1MTUxNnxNYWxhZCAoRWFzdCkgLSBQYXRoYW4gV2FkaXwyOjUwIFBNIzI1MTUxNXxCb3JpdmFsaSAoRWFzdCkgLSBOYXRpb25hbCBQYXJrIEJyaWRnZSBFbmQgQXhpcyBCYW5rfDI6NTUgUE0jMjUxNTE0fE1pcmEgUm9hZCBFYXN0LSBTaGVldGFsIE5hZ2FyfDM6MDAgUE0iLCAic291cmNlX3N0b3BfbmFtZSI6ICJCYW5nYWxvcmUiLCAiZGVzdF9zdG9wX25hbWUiOiAiTXVtYmFpIn0=",
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      }
+    },
+    {
+      "trip_id": "TRP-128852",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "2 X 1 NON A/C SLEEPER COACH",
+      "is_ac": false,
+      "from_city_name": "Bangalore",
+      "to_city_name": "Mumbai",
+      "route_name": "Bangalore To Jodhpur 2 X 1 Volvo 9600 With Washroom",
+      "bus_type_name": "2 X 1 NON A/C SLEEPER COACH",
+      "bus_seat_type": "Sleeper",
+      "amenities": [
+        "Non-AC",
+        "Blanket",
+        "Reading Light",
+        "Pillow"
+      ],
+      "schedule": {
+        "departure_time": "9:15 PM",
+        "arrival_time": "04:25 PM",
+        "departure_date": "2026-08-09",
+        "estimated_arrival_date": "2026-08-10",
+        "duration_minutes": 1150,
+        "distance_km": null
+      },
+      "pricing": {
+        "base_fare": 7392,
+        "service_tax": 0,
+        "surcharges": 0,
+        "total_fare": 7392,
+        "fare_type": "sleeper",
+        "currency": "INR"
+      },
+      "availability": {
+        "seats_available": 13,
+        "is_available": true,
+        "seat_types": [
+          "sleeper"
+        ]
+      },
+      "boarding_points": [
+        {
+          "name": "Jakhar Travels,Nr Anand Rao Circle,Opp.Ganesh Temple,G22 Brigade Plaza",
+          "time": "9:15 PM",
+          "contact": "8105149909,8105147606",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": true
+        },
+        {
+          "name": "Yeshwantpur,Govardhan Theater,Near Kokan Express Restaurant",
+          "time": "9:50 PM",
+          "contact": "8105149909,8105147606",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Gorguntepalya Flyover 1000Km",
+          "time": "10:00 PM",
+          "contact": "8105149909,8105147606",
+          "distance_km": 6.73,
+          "latitude": 13.041899,
+          "longitude": 77.515894,
+          "is_nearest": false
+        },
+        {
+          "name": "Jalahalli Toll Palza-Parle G Factory",
+          "time": "10:15 PM",
+          "contact": "8105149909,8105147606",
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Nelamangala Toll Plaza",
+          "time": "10:40 PM",
+          "contact": "8769101570,9460771937,99835038078769875570",
+          "distance_km": 20.49,
+          "latitude": 12.845463,
+          "longitude": 77.665641,
+          "is_nearest": false
+        },
+        {
+          "name": "Bhawani Hotel,Near dobbaspet",
+          "time": "11:15 PM",
+          "contact": "8105149909,8105147606",
+          "distance_km": 6.45,
+          "latitude": 12.981106,
+          "longitude": 77.610258,
+          "is_nearest": false
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Panvel-Kalamboli Junction,Opp.Mcdonalds",
+          "time": "2:15 PM",
+          "contact": null,
+          "distance_km": 32.08,
+          "latitude": 19.0213836,
+          "longitude": 73.1026301,
+          "is_nearest": false
+        },
+        {
+          "name": "Kharghar,Near Three Monkey Point",
+          "time": "2:25 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": true
+        },
+        {
+          "name": "Nerul",
+          "time": "2:30 PM",
+          "contact": null,
+          "distance_km": 24.21,
+          "latitude": 19.0335938,
+          "longitude": 73.018164,
+          "is_nearest": false
+        },
+        {
+          "name": "Vashi old Tol Naka,Before Flayover,Highway,Opp.Mojos",
+          "time": "2:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "Under the Juinagar Railway Station Public Bridge",
+          "time": "2:35 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.869204,
+          "is_nearest": false
+        },
+        {
+          "name": "TURBA NAKA RAILWAY STATION",
+          "time": "2:40 PM",
+          "contact": null,
+          "distance_km": 26.86,
+          "latitude": 19.0209123,
+          "longitude": 73.0398886,
+          "is_nearest": false
+        },
+        {
+          "name": "Ghansoli",
+          "time": "2:45 PM",
+          "contact": null,
+          "distance_km": 18.18,
+          "latitude": 19.1163797,
+          "longitude": 73.0069928,
+          "is_nearest": false
+        },
+        {
+          "name": "Airoli",
+          "time": "2:50 PM",
+          "contact": null,
+          "distance_km": 16.12,
+          "latitude": 19.1585147,
+          "longitude": 72.9994019,
+          "is_nearest": false
+        }
+      ],
+      "proximity_info": {
+        "nearest_boarding": {
+          "name": "Jakhar Travels,Nr Anand Rao Circle,Opp.Ganesh Temple,G22 Brigade Plaza",
+          "time": "9:15 PM",
+          "distance_km": 4.49
+        },
+        "nearest_dropping": {
+          "name": "Kharghar,Near Three Monkey Point",
+          "time": "2:25 PM",
+          "distance_km": 14.09
+        }
+      },
+      "booking_token": "eyJwcm92aWRlciI6ICJpbmZpbml0eWluZm93YXkiLCAicm91dGVfaWQiOiA2NDc2NCwgInJvdXRlX3RpbWVfaWQiOiAxMjg4NTIsICJhcnJhbmdlbWVudF9pZCI6IDcxODIsICJjb21wYW55X2lkIjogMSwgInJlZmVyZW5jZV9udW1iZXIiOiAiMSMyMzE4IzcwMyM2NDc2NCMxMjg4NTIjNzE4MiMwOTA4MjAyNiM5OjE1IFBNIzk6MTUgUE0jMiIsICJqb3VybmV5X2RhdGUiOiAiMjAyNi0wOC0wOSIsICJkZXBhcnR1cmVfdGltZSI6ICI5OjE1IFBNIiwgImFycml2YWxfdGltZSI6ICIwNDoyNSBQTSIsICJib2FyZGluZ19wb2ludHMiOiAiMzIxMzA3fEpha2hhciBUcmF2ZWxzLE5yIEFuYW5kIFJhbyBDaXJjbGUsT3BwLkdhbmVzaCBUZW1wbGUsRzIyIEJyaWdhZGUgUGxhemF8OToxNSBQTXw4MTA1MTQ5OTA5LDgxMDUxNDc2MDYjMzIxMzM0fFllc2h3YW50cHVyLEdvdmFyZGhhbiBUaGVhdGVyLE5lYXIgS29rYW4gRXhwcmVzcyBSZXN0YXVyYW50fDk6NTAgUE18ODEwNTE0OTkwOSw4MTA1MTQ3NjA2IzMyMTI5NnxHb3JndW50ZXBhbHlhIEZseW92ZXIgMTAwMEttfDEwOjAwIFBNfDgxMDUxNDk5MDksODEwNTE0NzYwNiMzMjEzNDN8SmFsYWhhbGxpIFRvbGwgUGFsemEtUGFybGUgRyBGYWN0b3J5fDEwOjE1IFBNfDgxMDUxNDk5MDksODEwNTE0NzYwNiMxODI3MjV8TmVsYW1hbmdhbGEgVG9sbCBQbGF6YXwxMDo0MCBQTXw4NzY5MTAxNTcwLDk0NjA3NzE5MzcsOTk4MzUwMzgwNzg3Njk4NzU1NzAjMzIxMzM5fEJoYXdhbmkgSG90ZWwsTmVhciBkb2JiYXNwZXR8MTE6MTUgUE18ODEwNTE0OTkwOSw4MTA1MTQ3NjA2IiwgImRyb3BwaW5nX3BvaW50cyI6ICI2Mzk2NnxQYW52ZWwtS2FsYW1ib2xpIEp1bmN0aW9uLE9wcC5NY2RvbmFsZHN8MjoxNSBQTSMzMjEzMTB8S2hhcmdoYXIsTmVhciBUaHJlZSBNb25rZXkgUG9pbnR8MjoyNSBQTSMyMzgxMjB8TmVydWx8MjozMCBQTSMzMjEzMzJ8VmFzaGkgb2xkIFRvbCBOYWthLEJlZm9yZSBGbGF5b3ZlcixIaWdod2F5LE9wcC5Nb2pvc3wyOjM1IFBNIzMyMTM1MXxVbmRlciB0aGUgSnVpbmFnYXIgUmFpbHdheSBTdGF0aW9uIFB1YmxpYyBCcmlkZ2V8MjozNSBQTSMzMjEzNTB8VFVSQkEgTkFLQSBSQUlMV0FZIFNUQVRJT058Mjo0MCBQTSMzMjEzNDJ8R2hhbnNvbGl8Mjo0NSBQTSMzMjEzMzV8QWlyb2xpfDI6NTAgUE0iLCAic291cmNlX3N0b3BfbmFtZSI6ICJCYW5nYWxvcmUiLCAiZGVzdF9zdG9wX25hbWUiOiAiTXVtYmFpIn0=",
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      }
+    },
+    {
+      "trip_id": "TRP-130024",
+      "operator": "Infinity Infoway Pvt. Ltd.",
+      "bus_type": "NON A/C SLEEPER",
+      "is_ac": false,
+      "from_city_name": "Bangalore",
+      "to_city_name": "Mumbai",
+      "route_name": "Bangalore To Jaisalmer",
+      "bus_type_name": "NON A/C SLEEPER",
+      "bus_seat_type": "Sleeper",
+      "amenities": [
+        "Non-AC",
+        "Blanket",
+        "Reading Light",
+        "Pillow"
+      ],
+      "schedule": {
+        "departure_time": "11:03 PM",
+        "arrival_time": "05:53 PM",
+        "departure_date": "2026-08-09",
+        "estimated_arrival_date": "2026-08-10",
+        "duration_minutes": 1130,
+        "distance_km": null
+      },
+      "pricing": {
+        "base_fare": 693,
+        "service_tax": 0,
+        "surcharges": 0,
+        "total_fare": 693,
+        "fare_type": "sleeper",
+        "currency": "INR"
+      },
+      "availability": {
+        "seats_available": 16,
+        "is_available": true,
+        "seat_types": [
+          "sleeper"
+        ]
+      },
+      "boarding_points": [
+        {
+          "name": "Bangalore",
+          "time": "11:03 PM",
+          "contact": null,
+          "distance_km": 4.49,
+          "latitude": 12.976794,
+          "longitude": 77.590082,
+          "is_nearest": false
+        },
+        {
+          "name": "Race Cource Road Bangolre.",
+          "time": "11:03 PM",
+          "contact": "8155824531",
+          "distance_km": 3.33,
+          "latitude": 12.982326,
+          "longitude": 77.58078,
+          "is_nearest": true
+        }
+      ],
+      "dropping_points": [
+        {
+          "name": "Mumbai",
+          "time": "5:53 PM",
+          "contact": null,
+          "distance_km": 14.09,
+          "latitude": 19.054999,
+          "longitude": 72.8692035,
+          "is_nearest": true
+        }
+      ],
+      "proximity_info": {
+        "nearest_boarding": {
+          "name": "Race Cource Road Bangolre.",
+          "time": "11:03 PM",
+          "distance_km": 3.33
+        },
+        "nearest_dropping": {
+          "name": "Mumbai",
+          "time": "5:53 PM",
+          "distance_km": 14.09
+        }
+      },
+      "booking_token": "eyJwcm92aWRlciI6ICJpbmZpbml0eWluZm93YXkiLCAicm91dGVfaWQiOiA2NTYxOSwgInJvdXRlX3RpbWVfaWQiOiAxMzAwMjQsICJhcnJhbmdlbWVudF9pZCI6IDE4OTg3LCAiY29tcGFueV9pZCI6IDEsICJyZWZlcmVuY2VfbnVtYmVyIjogIjEjMjMxOCM3MDMjNjU2MTkjMTMwMDI0IzE4OTg3IzA5MDgyMDI2IzExOjAzIFBNIzExOjAzIFBNIzIiLCAiam91cm5leV9kYXRlIjogIjIwMjYtMDgtMDkiLCAiZGVwYXJ0dXJlX3RpbWUiOiAiMTE6MDMgUE0iLCAiYXJyaXZhbF90aW1lIjogIjA1OjUzIFBNIiwgImJvYXJkaW5nX3BvaW50cyI6ICI0ODA0M3xCYW5nYWxvcmV8MTE6MDMgUE18IzQ4NTgxfFJhY2UgQ291cmNlIFJvYWQgQmFuZ29scmUufDExOjAzIFBNfDgxNTU4MjQ1MzEiLCAiZHJvcHBpbmdfcG9pbnRzIjogIjQ4MDM0fE11bWJhaXw1OjUzIFBNIiwgInNvdXJjZV9zdG9wX25hbWUiOiAiQmFuZ2Fsb3JlIiwgImRlc3Rfc3RvcF9uYW1lIjogIk11bWJhaSJ9",
+      "cancellation_policy": {
+        "is_cancellable": true,
+        "reschedule_allowed": true,
+        "reschedule_charge": 0
+      }
+    }
+  ],
+  "search_mode": "coordinates",
+  "search_meta": {
+    "resolved_source_stops": [
+      {
+        "name": "Kovvuru Toll Gate",
+        "distance_km": 2.04
+      },
+      {
+        "name": "Vijayanagar",
+        "distance_km": 2.88
+      },
+      {
+        "name": "Bangalore",
+        "distance_km": 4.49
+      },
+      {
+        "name": "Bengaluru",
+        "distance_km": 4.49
+      },
+      {
+        "name": "Bangalore",
+        "distance_km": 4.49
+      },
+      {
+        "name": "Heidelberg",
+        "distance_km": 4.9
+      },
+      {
+        "name": "Sankeshwar",
+        "distance_km": 5.28
+      },
+      {
+        "name": "Sankeshwar (By Pass)",
+        "distance_km": 5.28
+      },
+      {
+        "name": "Gaddankeri Cross",
+        "distance_km": 5.29
+      },
+      {
+        "name": "Kulgeri Cross",
+        "distance_km": 5.29
+      },
+      {
+        "name": "Belvadi",
+        "distance_km": 5.44
+      },
+      {
+        "name": "Bangalore Sightseeing Itdc",
+        "distance_km": 8.12
+      },
+      {
+        "name": "Vellore (Chennai)",
+        "distance_km": 8.39
+      },
+      {
+        "name": "Nan Dishma",
+        "distance_km": 16.13
+      },
+      {
+        "name": "Shivakodu",
+        "distance_km": 16.24
+      },
+      {
+        "name": "Adur",
+        "distance_km": 18.08
+      },
+      {
+        "name": "Mallapura",
+        "distance_km": 19.11
+      },
+      {
+        "name": "Nelamangala",
+        "distance_km": 20.68
+      },
+      {
+        "name": "Chikkaballapur",
+        "distance_km": 21.29
+      },
+      {
+        "name": "capetwon",
+        "distance_km": 21.71
+      },
+      {
+        "name": "Kadugli",
+        "distance_km": 22.33
+      },
+      {
+        "name": "Byavar",
+        "distance_km": 23.63
+      },
+      {
+        "name": "Bangalore Intl Airport",
+        "distance_km": 28.35
+      },
+      {
+        "name": "Channarayapatana",
+        "distance_km": 38.74
+      },
+      {
+        "name": "Karnool",
+        "distance_km": 41.03
+      },
+      {
+        "name": "Hosur",
+        "distance_km": 42.35
+      },
+      {
+        "name": "Pinetown",
+        "distance_km": 44.24
+      },
+      {
+        "name": "Bathalapalli",
+        "distance_km": 45.06
+      }
+    ],
+    "resolved_destination_stops": [
+      {
+        "name": "Malad",
+        "distance_km": 0.75
+      },
+      {
+        "name": "Borivali (E)",
+        "distance_km": 5.41
+      },
+      {
+        "name": "Vati",
+        "distance_km": 5.7
+      },
+      {
+        "name": "Dahisara",
+        "distance_km": 6.17
+      },
+      {
+        "name": "Mumbai Darshan",
+        "distance_km": 7.66
+      },
+      {
+        "name": "Kashimira",
+        "distance_km": 11.29
+      },
+      {
+        "name": "Villiers",
+        "distance_km": 11.58
+      },
+      {
+        "name": "Ghatkopar",
+        "distance_km": 12.28
+      },
+      {
+        "name": "Shravan",
+        "distance_km": 12.51
+      },
+      {
+        "name": "Warden",
+        "distance_km": 13.45
+      },
+      {
+        "name": "Ghodbandar",
+        "distance_km": 13.66
+      },
+      {
+        "name": "Ranuja",
+        "distance_km": 14.05
+      },
+      {
+        "name": "Mumbai",
+        "distance_km": 14.09
+      },
+      {
+        "name": "Mumbai",
+        "distance_km": 14.09
+      },
+      {
+        "name": "Mumbai (Thane)",
+        "distance_km": 14.99
+      },
+      {
+        "name": "Vitta",
+        "distance_km": 17.17
+      },
+      {
+        "name": "Dadar",
+        "distance_km": 18.09
+      },
+      {
+        "name": "Dadar",
+        "distance_km": 18.09
+      },
+      {
+        "name": "Vasai",
+        "distance_km": 18.64
+      },
+      {
+        "name": "Vasai",
+        "distance_km": 18.64
+      },
+      {
+        "name": "Vashi",
+        "distance_km": 20.52
+      },
+      {
+        "name": "Parmanu",
+        "distance_km": 24.47
+      },
+      {
+        "name": "Navi Mumbai",
+        "distance_km": 24.55
+      },
+      {
+        "name": "Dombiwali",
+        "distance_km": 25.85
+      },
+      {
+        "name": "Bhiwandi",
+        "distance_km": 26.03
+      },
+      {
+        "name": "Mantralaya",
+        "distance_km": 28.14
+      },
+      {
+        "name": "Virar",
+        "distance_km": 30.23
+      },
+      {
+        "name": "kalamboli (Panvel)",
+        "distance_km": 30.94
+      },
+      {
+        "name": "Kalyan",
+        "distance_km": 31.07
+      },
+      {
+        "name": "Kalyan (Maharashtra)",
+        "distance_km": 31.15
+      },
+      {
+        "name": "Vichumbe",
+        "distance_km": 35.43
+      },
+      {
+        "name": "Panvel",
+        "distance_km": 35.8
+      },
+      {
+        "name": "Rasayani",
+        "distance_km": 46.99
+      }
+    ],
+    "expanded_radius": false
+  }
+}
